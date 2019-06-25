@@ -1,0 +1,56 @@
+﻿# -*- mode: snippet -*-
+# name: Asciidoc
+# key: asciidoc
+# Asciidocの書き始め
+# --
+= ${0:title}        // タイトル
+有賀清一          // 著者
+v0.1(Draft) 2016/12/12      // 版数情報
+//==============================================================
+// Attribute / アトリビュート
+//==============================================================
+:lang: ja                                 // 日本語ドキュメント
+:doctype: book                            // 文書タイプは book にする
+:description:                             // ドキュメントに関する説明 
+:docname: ${1:title}                   // ドキュメント名、ヘッダーに入る
+:imagesdir: ./images                      // イメージファイルを置くフォルダ（相対PATH）
+:icons: font                              // アイコンフォントを利用するフラグ
+:iconsdir: ./images/icons                 // アイコンファイルの保管場所（未使用）
+:pdf-fontsdir: fonts                      // フォントファイルを置くフォルダ（相対PATH）
+:pdf-style:   // スタイルファイルを指定（相対PATH）
+:title-logo-image: // ロゴ画像ファイルを指定（相対PATH）
+:title-page-background-image: 　// 表紙背景画像ファイルを指定（相対PATH）
+:experimental: //experimentalを利用
+
+//==============================================================
+// 章設定
+//==============================================================
+:toc:
+:toclevels: 3
+
+//==============================================================
+// ソースハイライト
+//==============================================================
+:source-highlighter: coderay
+
+//==============================================================
+// 日本語にする
+//==============================================================
+:toc-title: 目次
+:preface-title: はじめに
+:appendix-caption: 付録
+:caution-caption: 注意
+:example-caption: 例
+:figure-caption: 図
+:important-caption: 重要
+:last-update-label: 最終更新
+:listing-caption: リスト
+:manname-title: 名前
+:note-caption: 注記
+:preface-title: まえがき
+:table-caption: 表
+:tip-caption: ヒント
+:toc-title: 目次
+:untitled-label: 無題
+:version-label: バージョン
+:warning-caption: 警告
